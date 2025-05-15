@@ -1,10 +1,10 @@
-# 📊 Türkçe Cümle Duygu Analizi (Sentiment Analysis) - Zemberek ile
+#  Türkçe Cümle Duygu Analizi (Sentiment Analysis) - Zemberek ile
 
 Bu proje, Türkçe metinlerdeki **duygu durumunu (pozitif/negatif)** analiz etmek için Zemberek doğal dil işleme kütüphanesini kullanan bir Python uygulamasıdır. Projede özel olarak hazırlanan pozitif ve negatif kelime listeleri, köklerine indirgenerek duygu tespiti yapılır.
 
 ---
 
-## 🚀 Özellikler
+##  Özellikler
 
 - Zemberek ile kök bazlı Türkçe metin analizi
 - Cümle düzeyinde pozitif/negatif duygu sınıflandırması
@@ -16,7 +16,7 @@ Bu proje, Türkçe metinlerdeki **duygu durumunu (pozitif/negatif)** analiz etme
 
 ---
 
-## 📁 Proje Yapısı
+##  Proje Yapısı
 
 ```bash
 .
@@ -25,15 +25,15 @@ Bu proje, Türkçe metinlerdeki **duygu durumunu (pozitif/negatif)** analiz etme
 ├── sentiment_analysis.py      # Duygu analizi ve model değerlendirme
 ├── visualization.py           # Performans görselleştirmeleri
 ├── constants.py               # Zemberek .jar yolu gibi sabitler
-├── kenan_pozitif2.txt         # Pozitif kelimeler listesi
-├── kenan_negatif2.txt         # Negatif kelimeler listesi
+├── pozitif_kelimeler.txt         # Pozitif kelimeler listesi
+├── negatif_kelimeler.txt         # Negatif kelimeler listesi
 ├── esit_verilen.xlsx          # Etiketli test verileri
 └── README.md                  # Proje açıklaması (bu dosya)
 ```
 
 ---
 
-## 🛠️ Kurulum
+##  Kurulum
 
 ### 1. Python Bağımlılıkları
 
@@ -54,7 +54,7 @@ ZEMBEREK_PATH = "C:/Users/kullanıcı_adı/Desktop/zemberek-full.jar"
 
 ---
 
-## ▶️ Kullanım
+##  Kullanım
 
 Terminalde aşağıdaki komutla çalıştırılır:
 
@@ -80,17 +80,3 @@ python main.py
   - Hatalı tahmin listesi
   - Performans grafiği
 
----
-
-## 🧠 Notlar ve Geliştirme Önerileri
-
-- Ağırlıklı pozitif/negatif kelime listeleri eklenebilir
-- Nötr sınıfı eklenebilir
-- Daha fazla morfolojik varyasyon (kadar, hiç vb.) işlenebilir
-- Web API (Flask, FastAPI) olarak entegre edilebilir
-
----
-
-## 📞 İletişim
-
-Bu projede katkıda bulunmak ya da herhangi bir hata bildirmek isterseniz benimle iletişime geçebilirsiniz.
